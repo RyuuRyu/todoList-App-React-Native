@@ -1,7 +1,3 @@
-Here's a description for your ToDoList app that you can use for your GitHub repository:
-
----
-
 # ToDoList App
 
 ## Overview
