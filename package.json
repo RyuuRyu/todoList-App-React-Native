@@ -1,0 +1,37 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "homepage": "https://github.com/MirukuRyuu/todoList-App-React-Native",
+  "main": "expo/AppEntry.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+    "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~3.2.1",
+    "@react-native-community/datetimepicker": "^8.0.1",
+    "@react-native/metro-config": "^0.74.83",
+    "expo": "~51.0.9",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-icon": "^0.2.10",
+    "react-native-modal-datetime-picker": "^17.1.0",
+    "react-native-web": "~0.19.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "gh-pages": "^6.1.1",
+    "metro-config": "^0.80.9"
+  },
+  "private": true,
+  "packageManager": "yarn@3.6.4"
+}
