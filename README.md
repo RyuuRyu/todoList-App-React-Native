@@ -24,18 +24,12 @@ To run the ToDoList App on your local machine, follow these steps:
 3. Install the dependencies:
     ```sh
     npm install
+    npm install --global expo-cli
+    npm install metro
     ```
-4. Start the React Native development server:
+4. Start the App using Expo:
     ```sh
-    npx react-native start
-    ```
-5. Run the app on Android:
-    ```sh
-    npx react-native run-android
-    ```
-   Or on iOS:
-    ```sh
-    npx react-native run-ios
+    npx expo start
     ```
 
 ## Usage
